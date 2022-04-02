@@ -1,4 +1,5 @@
 # so this is the pdf that will be used 
+# this is the main shell command to print books
 dialog --title "book printing utility" --yesno "Are you ready to start?" 15 50
 
 if test -f "INPUT.txt"; then
